@@ -1,0 +1,6 @@
+sena\adso\sinfonica_nobsa\model\InstrumentManager.class
+sena\adso\sinfonica_nobsa\model\Instrument.class
+sena\adso\sinfonica_nobsa\model\WindInstrument.class
+sena\adso\sinfonica_nobsa\model\PercussionInstrument.class
+sena\adso\sinfonica_nobsa\model\Loan.class
+sena\adso\sinfonica_nobsa\model\StringInstrument.class
