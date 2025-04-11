@@ -1,0 +1,6 @@
+sena\adso\biblioteca_duitama\Book.class
+sena\adso\biblioteca_duitama\NonFictionBook.class
+sena\adso\biblioteca_duitama\BookManager.class
+sena\adso\biblioteca_duitama\LoanBook.class
+sena\adso\biblioteca_duitama\ReferenceBook.class
+sena\adso\biblioteca_duitama\FictionBook.class
