@@ -128,7 +128,7 @@ public class BookManager {
         return true;
     }
     
-    public int getNextBookid(){
+    public int getNextBookId(){
         return nextBookId;
     }
 }

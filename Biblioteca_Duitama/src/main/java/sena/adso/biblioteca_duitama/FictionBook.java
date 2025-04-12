@@ -5,7 +5,7 @@ public class FictionBook extends Book {
     private String autor;
     private boolean literaryAwards;
 
-    public FictionBook(int id, String name, String type, String condition,String gender, String autor, boolean literaryAwards) {
+    public FictionBook(int id, String name, String type, String condition, String gender, String autor, boolean literaryAwards) {
         super(id, name, "Ficción", condition);
         this.gender = gender;
         this.autor = autor;
@@ -39,8 +39,8 @@ public class FictionBook extends Book {
     @Override
     public String getDescription(){
         return getName() + " es un libro de ficcion del genero " + gender +
-                " perteneciente al autor " + autor + 
-                (literaryAwards ? "con conocidos premios literarios" : "sin conocidos premios literarios");
+                ", perteneciente al autor " + autor + 
+                (literaryAwards ? ", con conocidos premios literarios" : ", sin conocidos premios literarios");
     }
 
     @Override

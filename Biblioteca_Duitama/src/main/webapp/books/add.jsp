@@ -37,15 +37,15 @@
                     String condition = request.getParameter("condition");
                     
                     Book newBook = null;
-                    int id = manager.getNextBookid();
+                    int id = manager.getNextBookId();
                     
                     if (type.equals("Fiction")) {
-                            String gender = request.getParameter("Gender");
+                            String gender = request.getParameter("gender");
                             String autor = request.getParameter("autor");
                             boolean literaryAwards = request.getParameter("literacyAwards") != null;
                             newBook = new FictionBook(id, name, type, condition, gender, autor, literaryAwards);
                         } else if (type.equals("NonFiction")) {
-                            String theme = request.getParameter("tematic");
+                            String theme = request.getParameter("theme");
                             String objectivePublic = request.getParameter("objectivePublic");
                             newBook = new NonFictionBook(id, name, type, condition, theme, objectivePublic);
                         } else if (type.equals("Reference")) {

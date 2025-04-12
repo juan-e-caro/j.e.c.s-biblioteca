@@ -51,7 +51,7 @@ public abstract class Book {
         return available;
     }
 
-    public void setAvailable(boolean avialiable) {
+    public void setAvailable(boolean available) {
         this.available = available;
     }
     
